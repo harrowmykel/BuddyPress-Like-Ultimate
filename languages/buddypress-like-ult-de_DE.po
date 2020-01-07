@@ -1,0 +1,535 @@
+# Copyright (C) 2017 Buddypress Like
+# This file is distributed under the same license as the Buddypress Like.
+msgid ""
+msgstr ""
+"Project-Id-Version: Buddypress Like 1.5.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-15 12:00+0100\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/admin.php:30
+msgid "You do not have permission to do that."
+msgstr ""
+
+#: admin/admin.php:39
+#, php-format
+msgid "%s Like"
+msgid_plural "%s Likes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/admin.php:108
+msgid "Settings saved."
+msgstr ""
+
+#: admin/admin.php:113
+msgid "BuddyPress Like Ultimate"
+msgstr ""
+
+#: admin/admin.php:135 admin/admin.php:139
+msgid "Posting Settings"
+msgstr ""
+
+#: admin/admin.php:143
+msgid "Post an activity update when something is liked"
+msgstr ""
+
+#: admin/admin.php:145
+msgid "e.g. "
+msgstr ""
+
+#: admin/admin.php:145
+msgid " liked Darren's activity. "
+msgstr ""
+
+#: admin/admin.php:149
+msgid "Show a short excerpt of the activity that has been liked."
+msgstr ""
+
+#: admin/admin.php:156 admin/admin.php:160
+msgid "Remove Favorite Button"
+msgstr ""
+
+#: admin/admin.php:164
+msgid "Remove the BuddyPress favorite button from activity."
+msgstr ""
+
+#: admin/admin.php:166
+msgid " Currently only uses jQuery to remove the buttons."
+msgstr ""
+
+#: admin/admin.php:172
+msgid "Toggle button"
+msgstr ""
+
+#: admin/admin.php:176
+msgid "Toggle Like Button"
+msgstr ""
+
+#: admin/admin.php:180
+msgid "Toggle like/unlike button text on mouse over."
+msgstr ""
+
+#: admin/admin.php:182
+msgid ""
+"Instead of showing the 'unlike' text when a user has liked an item, show the "
+"'like' text and toggle to the 'unlike' text on mouse over."
+msgstr ""
+
+#: admin/admin.php:188
+msgid "Blog Post Support"
+msgstr ""
+
+#: admin/admin.php:192
+msgid "Enable Blog Post Support"
+msgstr ""
+
+#: admin/admin.php:196
+msgid "Display the like button at the bottom of your blog posts."
+msgstr ""
+
+#: admin/admin.php:203
+msgid "Post types"
+msgstr ""
+
+#: admin/admin.php:207
+msgid "Post types to show like button"
+msgstr ""
+
+#: admin/admin.php:209
+msgid "Choose Post types on which to show the like button:"
+msgstr ""
+
+#: admin/admin.php:223
+msgid "Notifications"
+msgstr ""
+
+#: admin/admin.php:227
+msgid "Enable Notifications"
+msgstr ""
+
+#: admin/admin.php:231
+msgid "Enable notifications."
+msgstr ""
+
+#: admin/admin.php:240 admin/admin.php:306
+msgid "Save Changes"
+msgstr ""
+
+#: admin/admin.php:270 admin/admin.php:274
+msgid "Custom Messages"
+msgstr ""
+
+#: admin/admin.php:277
+msgid ""
+"Change what messages are shown to users. For example, they can 'love' or "
+"'dig' items instead of liking them."
+msgstr ""
+
+#: admin/admin.php:286
+msgid "Default"
+msgstr ""
+
+#: admin/admin.php:287
+msgid "Custom"
+msgstr ""
+
+#: includes/template.php:100
+#, php-format
+msgid "My Likes %s"
+msgstr "Meine Likes %s"
+
+#: includes/install-functions.php:7
+msgid "Like"
+msgstr ""
+
+#: includes/install-functions.php:8
+msgid "Unlike"
+msgstr ""
+
+#: includes/install-functions.php:9
+msgid "Like this item"
+msgstr "Gefällt mir!"
+
+#: includes/install-functions.php:10
+msgid "Unlike this item"
+msgstr "Gefällt mir nicht mehr"
+
+#: includes/install-functions.php:11
+msgid "Update Likes"
+msgstr ""
+
+#: includes/install-functions.php:12
+msgid "Blog Post Likes"
+msgstr ""
+
+#: includes/install-functions.php:13 includes/like-functions.php:150
+msgid "Sorry, you must be logged in to like that."
+msgstr ""
+
+#: includes/install-functions.php:14
+msgid "%user% liked their own <a href=\"%permalink%\">update</a>"
+msgstr "%user% gefällt das eigene <a href=\"%permalink%\">Update</a>"
+
+#: includes/install-functions.php:15
+msgid "%user% liked an <a href=\"%permalink%\">update</a>"
+msgstr "%user% gefällt ein <a href=\"%permalink%\">Update</a>"
+
+#: includes/install-functions.php:16
+msgid "%user% liked %author%'s <a href=\"%permalink%\">update</a>"
+msgstr "%user% gefällt %author%s <a href=\"%permalink%\">Update</a>"
+
+#: includes/install-functions.php:17
+msgid "%user% liked their own blog post <a href=\"%permalink%\">%title%</a>"
+msgstr "%user% gefällt die eigene News <a href=\"%permalink%\">%title%</a>"
+
+#: includes/install-functions.php:18
+msgid "%user% liked a blog post <a href=\"%permalink%\">%title%</a>"
+msgstr "%user% gefällt die News <a href=\"%permalink%\">%title%</a>"
+
+#: includes/install-functions.php:19
+msgid "%user% liked %author%'s blog post <a href=\"%permalink%\">%title%</a>"
+msgstr "%user% gefällt %author%s News <a href=\"%permalink%\">%title%</a>"
+
+#: includes/install-functions.php:20
+msgid "You like this."
+msgstr "Dir gefällt das."
+
+#: includes/install-functions.php:21
+#, php-format
+msgid "You and %count% other person like this."
+msgstr "Dir und %count% anderen Person gefällt das."
+
+#: includes/install-functions.php:22
+#, php-format
+msgid "You and %s like this."
+msgstr "Dir und %s gefällt das."
+
+#: includes/install-functions.php:23
+#, php-format
+msgid "You, %s and %s like this."
+msgstr "Dir, %s und %s gefällt das."
+
+#: includes/install-functions.php:24
+#, php-format
+msgid "You and %count% other people like this"
+msgstr "Dir und %count% anderen gefällt das"
+
+#: includes/install-functions.php:25
+msgid "%count% person likes this."
+msgstr "%count% Person gefällt das."
+
+#: includes/install-functions.php:26
+msgid "%count% people like this."
+msgstr "%count% Menschen gefällt das."
+
+#: includes/install-functions.php:27
+#, php-format
+msgid "and %count% other person like this."
+msgstr "und %count% anderen Person gefällt das."
+
+#: includes/install-functions.php:28
+#, php-format
+msgid "and %count% other people like this."
+msgstr "und %count% anderen gefällt das."
+
+#: includes/install-functions.php:29
+#, php-format
+msgid "%s, %s and %s like this."
+msgstr "%s, %s und %s gefällt das."
+
+#: includes/install-functions.php:30 includes/notifications.php:101
+#, php-format
+msgid "%s and %s like this."
+msgstr "%s und %s gefällt das."
+
+#: includes/install-functions.php:31
+#, php-format
+msgid "%s likes this."
+msgstr "%s gefällt das."
+
+#: includes/install-functions.php:32
+#, php-format
+msgid ""
+"None of your friends like this yet, but you and %count% other person does."
+msgstr ""
+"Keinem deiner Kontakte gefällt dies bis jetzt, aber dir und %count% anderen "
+"Person gefällt es."
+
+#: includes/install-functions.php:33
+#, php-format
+msgid ""
+"None of your friends like this yet, but you and %count% other people do."
+msgstr ""
+
+#: includes/install-functions.php:34
+#, php-format
+msgid "None of your friends like this yet, but %count% other person does."
+msgstr ""
+
+#: includes/install-functions.php:35
+#, php-format
+msgid "None of your friends like this yet, but %count% other people do."
+msgstr ""
+
+#: includes/install-functions.php:195
+#, php-format
+msgid ""
+"<strong>BuddyPress Like Ultimate</strong> has been successfully updated to version %s."
+msgstr ""
+
+#: includes/install-functions.php:207
+msgid ""
+"<strong>BuddyPress Like Ultimate</strong></a> requires the BuddyPress plugin to work. "
+"Please <a href=\"http://buddypress.org\">install BuddyPress</a> first, or <a "
+"href=\"plugins.php\">deactivate BuddyPress Like Ultimate</a>."
+msgstr ""
+
+#: includes/bplike-ult-likes-loader.php:29
+msgctxt "Likes screen page <title>"
+msgid "Likes"
+msgstr ""
+
+#: includes/bplike-ult-likes-loader.php:107
+msgctxt "component directory title"
+msgid "Likes"
+msgstr ""
+
+#: includes/bplike-ult-likes-loader.php:159
+#, php-format
+msgctxt "Likes screen nav with counter"
+msgid "Likes <span class=\"%s\">%s</span>"
+msgstr ""
+
+#: includes/bplike-ult-likes-loader.php:161
+msgctxt "Likes screen nav without counter"
+msgid "Likes"
+msgstr ""
+
+#: includes/bplike-ult-likes-loader.php:176
+msgctxt "Profile activity screen sub nav"
+msgid "Likes"
+msgstr ""
+
+#: includes/bplike-ult-likes-loader.php:186
+msgctxt "Likes screen sub nav"
+msgid "Stats"
+msgstr ""
+
+#: includes/bplike-ult-likes-loader.php:218
+msgctxt "My Account Likes sub nav"
+msgid "Likes"
+msgstr ""
+
+#: includes/bplike-ult-likes-loader.php:232
+msgctxt "My Account Likes sub nav"
+msgid "Statistics"
+msgstr ""
+
+#: includes/bplike-ult-likes-loader.php:259
+msgctxt "Page and <title>"
+msgid "My Likes"
+msgstr ""
+
+#: includes/bplike-ult-likes-loader.php:264
+#, php-format
+msgid "Profile picture of %s"
+msgstr "Profilbild von %s"
+
+#: includes/notifications.php:71
+#, php-format
+msgid "%s liked your update"
+msgstr "%s gefällt dein Beitrag"
+
+#: includes/notifications.php:78
+#, php-format
+msgid "%s and %s liked your update"
+msgstr "%s und %s gefällt dein Beitrag"
+
+#: includes/notifications.php:97
+msgid "other"
+msgid_plural "others"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/notifications.php:97
+#, php-format
+msgid "%s, %s and %d "
+msgstr "%s, %s und %d "
+
+#: includes/notifications.php:120
+#, php-format
+msgid ""
+"%1$s liked your update in the group \"%2$s\":\n"
+"\n"
+"\"%3$s\"\n"
+"\n"
+"To view your liked update, log in and visit: %4$s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"%1$s gefällt dein Beitrag in der Gruppe \"%2$s\":\n"
+"\n"
+"\"%3$s\"\n"
+"\n"
+"Deinen Beitrag findest du unter: %4$s\n"
+"\n"
+"---------------------\n"
+
+#: includes/notifications.php:130
+#, php-format
+msgid ""
+"%1$s liked your update:\n"
+"\n"
+"\"%2$s\"\n"
+"\n"
+"To view your liked update, log in and visit: %3$s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"%1$s gefällt dein Beitrag:\n"
+"\n"
+"\"%2$s\"\n"
+"\n"
+"Deinen Beitrag findest du unter: %3$s\n"
+"\n"
+"---------------------\n"
+
+#: includes/notifications.php:142 includes/notifications.php:262
+#: includes/notifications.php:351
+#, php-format
+msgid "To disable these notifications please log in and go to: %s"
+msgstr ""
+"Über den folgenden Link kannst du Benachrichtigungen über neue Likes "
+"abbestellen: %s"
+
+#: includes/notifications.php:249
+#, php-format
+msgid "%s liked one of your comments"
+msgstr "%s gefällt einer deiner Kommentare"
+
+#: includes/notifications.php:251
+#, php-format
+msgid ""
+"%1$s liked one of your comments:\n"
+"\n"
+"\"%2$s\"\n"
+"\n"
+"To view your comment, log in and visit: %3$s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"%1$s gefällt einer deiner Kommentare:\n"
+"\n"
+"\"%2$s\"\n"
+"\n"
+"Deinen Kommentar findest du hier: %3$s\n"
+"\n"
+"---------------------\n"
+
+#: includes/notifications.php:334
+#, php-format
+msgid "%s replied to one of your comments"
+msgstr "%s antwortete auf einen deiner Kommentare"
+
+#: includes/notifications.php:340
+#, php-format
+msgid ""
+"%1$s liked one of your comments:\n"
+"\n"
+"\"%2$s\"\n"
+"\n"
+"To view the original activity, your comment and all replies, log in and "
+"visit: %3$s\n"
+"\n"
+"---------------------\n"
+msgstr ""
+"%1$s gefällt einer deiner Kommentare:\n"
+"\n"
+"\"%2$s\"\n"
+"\n"
+"Den Originalbeitrag, deinen Kommentar und alle Antworten findest du hier: "
+"%3$s\n"
+"\n"
+"---------------------\n"
+
+#: includes/notifications.php:471
+#, php-format
+msgid "%s likes your update: <em>%s</em>"
+msgstr "%s gefällt dein Beitrag: <em>%s</em>"
+
+#: includes/notifications.php:473
+#, php-format
+msgid "%1$d people liked your update: <em>%2$s</em>"
+msgstr "%1$d Menschen gefällt dein Beitrag: <em>%2$s</em>"
+
+#: includes/notifications.php:483
+#, php-format
+msgid "%s likes your comment: <em>%s</em>"
+msgstr "%s gefällt dein Kommentar: <em>%s</em>"
+
+#: includes/notifications.php:485
+#, php-format
+msgid "%1$d people liked your comment: <em>%2$s</em>"
+msgstr "%1$d Menschen gefällt dein Kommentar: <em>%2$s</em>"
+
+#: includes/notifications.php:502
+#, php-format
+msgid "%s likes your <strong>%s</strong> to the %s <em>%s</em>: <em>%s</em>"
+msgstr "%s gefällt dein <strong>%s</strong> zu %s <em>%s</em>: <em>%s</em>"
+
+#: includes/notifications.php:506
+#, php-format
+msgid ""
+"%1$d people liked your <strong>%2$s</strong> to the %3$s <em>%4$s</em>: <em"
+"%5$s</em>"
+msgstr ""
+"%1$d Menschen gefällt dein <strong>%2$s</strong> zu %3$s <em>%4$s</em>: <em"
+"%5$s</em>"
+
+#: includes/notifications.php:518
+#, php-format
+msgid "%s likes your <strong>%s</strong>: <em>%s</em>"
+msgstr "%s gefällt dein <strong>%s</strong>: <em>%s</em>"
+
+#: includes/notifications.php:522
+#, php-format
+msgid "%1$d people liked your <strong>%2$s</strong>: <em>%3$s</em>"
+msgstr "%1$d gefällt dein <strong>%2$s</strong>: <em>%3$s</em>"
+
+#: includes/notifications.php:537
+#, php-format
+msgid "%s likes your comment on the <strong>%s</strong> %s: <em>%s</em>"
+msgstr "%s gefällt dein Kommentar zu <strong>%s</strong> %s: <em>%s</em>"
+
+#: includes/notifications.php:541
+#, php-format
+msgid ""
+"%1$d people liked your comment on the <strong>%2$s</strong> %3$s: <em>%4$s</"
+"em>"
+msgstr ""
+"%1$d Menschen gefällt dein Kommentar zu <strong>%2$s</strong> %3$s: <em>"
+"%4$s</em>"
+
+#: includes/like-functions.php:321
+#, php-format
+msgid "You, %s, %s and %d other like this."
+msgid_plural "You, %s, %s and %d others like this."
+msgstr[0] "Dir, %s, %s und %d anderen Person gefällt das."
+msgstr[1] "Dir, %s, %s und %d anderen Personen gefällt das."
+
+#: includes/like-functions.php:376
+#, php-format
+msgid "%s, %s, %s and %d other like this."
+msgid_plural "%s, %s, %s and %d others like this."
+msgstr[0] "%s, %s, %s und %d anderen Person gefällt das."
+msgstr[1] "%s, %s, %s und %d anderen Personen gefällt das."
+
+#~ msgid "%user% liked an blog post <a href=\"%permalink%\">%title%</a>"
+#~ msgstr "%user% gefällt eine News <a href=\"%permalink%\">%title%</a>"

@@ -1,0 +1,34 @@
+a.unlike.toggle span.unlike-text,
+a.unlike span.like-text,
+a.like span.unlike-text,
+a.no-ajax-unlike.toggle span.unlike-text,
+a.no-ajax-unlike span.like-text,
+a.no-ajax-like span.unlike-text {
+    display: none;
+}
+
+a.unlike.toggle span.like-text,
+a.unlike.toggle:hover span.unlike-text
+a.no-ajax-unlike.toggle span.like-text,
+a.no-ajax-unlike.toggle:hover span.unlike-text {
+    display: inherit;
+}
+
+a.no-ajax-unlike:hover span.like-text,
+a.unlike:hover span.like-text {
+    display: none;
+}
+ .users-who-like a,
+.activity-list .activity-item .activity-meta.action .users-who-like a{
+	padding: 0px;
+}
+
+.users-who-like img,
+.users-who-like a img,
+.activity-list .activity-item .activity-meta.action .users-who-like img{
+    border-radius: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+}

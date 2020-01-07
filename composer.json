@@ -1,0 +1,22 @@
+{
+  "name": "konnektiv/buddypress-like-ult",
+  "description": "Gives users the ability to 'like' content across your BuddyPress enabled site.",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "activity",
+    "community",
+    "forum",
+    "friends",
+    "groups",
+    "messaging",
+    "notifications",
+    "profiles",
+    "social network",
+    "like"
+  ],
+  "license": "GPL-2.0+",
+  "require": {
+    "composer/installers": "~1.0",
+    "php": ">=5.2.4"
+  }
+}
