@@ -30,11 +30,12 @@ function bp_like_ult_is_liked( $item_id, $type, $user_id) {
  * Registers that the user likes a given item.
  *
  */
-function bp_like_ult_add_user_like( $item_id, $type ) {
+function bp_like_ult_add_user_like( $item_id, $type, $user_id = 0) {
 
     $liked_count = 0;
 
-    if ( ! isset( $user_id ) ) {
+    //if user id is 0, null, '' 
+    if ( empty($user_id) ) {
         $user_id = get_current_user_id();
     }
     if ( ! $item_id || ! is_user_logged_in() ) {
