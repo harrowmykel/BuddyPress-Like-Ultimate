@@ -121,11 +121,12 @@ function bp_like_ult_add_user_like( $item_id, $type, $user_id = 0) {
 		/* Do nothing special for now */
         do_action("bp_like_ult_${type}_add_like", $user_id, $item_id);
     }
-
-    ?>
-    <span class="like-text"><?php echo bp_like_ult_get_text( 'like' ); ?></span>
-    <span class="unlike-text"><?php echo bp_like_ult_get_text( 'unlike' ); ?></span>
-    <span class="like-count"><?php echo $liked_count; ?></span><?php
+    //only echo if doing ajax
+    if(wp_doing_ajax()): ?>
+      <span class="like-text"><?php echo bp_like_ult_get_text( 'like' ); ?></span>
+      <span class="unlike-text"><?php echo bp_like_ult_get_text( 'unlike' ); ?></span>
+      <span class="like-count"><?php echo $liked_count; ?></span>
+    <?php endif;
 }
 
 /**
