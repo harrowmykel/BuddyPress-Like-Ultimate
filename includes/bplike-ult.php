@@ -3,7 +3,7 @@
 defined( 'ABSPATH' ) || exit;
 
 if ( ! defined( 'BP_LIKE_ULT_VERSION' ) ) {
-    define( 'BP_LIKE_ULT_VERSION', '0.3.1' );
+    define( 'BP_LIKE_ULT_VERSION', '1.0.0' );
 }
 
 if ( ! defined( 'BP_LIKE_ULT_DB_VERSION' ) ) {
